@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="utf-8">
+    <title>African Wildlife</title>
+    <!--Change title-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/image-gallery.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="row">
+            <div class="col-12">
+                <h1 id="id20">African Wildlife</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="thumbnails">
+                    <img src="img/kenya1.jpg" id="elephants" onclick="mark(this)"  alt="Elephants in Masai Mara National Reserve" onmouseover="africaWild(0); africaCaption(0)" />
+                    <img src="img/ethiopia1.jpg" id="gelada" onclick="mark(this)"  alt="Male Gelada Monkey in Simien Mountain, Ethiopia" onmouseover="africaWild(1); africaCaption(1)" />
+                    <img src="img/southafrica1.jpg" id="rhinos" onclick="mark(this)"  alt="Young male Rhinos in Hluhluwe Game Reserve, South Africa" onmouseover="africaWild(2); africaCaption(2)" />
+                    <img src="img/namibia1.jpg" id="lion" onclick="mark(this)" alt="Majestic Lion in Etosha National Park, Namibia" onmouseover="africaWild(3); africaCaption(3)" />
+                    <img src="img/tanzania1.jpg" id="cheetah" onclick="mark(this)" alt="Cheetah in Serengeti National Park." onmouseover="africaWild(4); africaCaption(4)" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="mainImage">
+                    <img id="largeImage" src="=" alt="" />
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="caption">
+                    <p id="caption"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
